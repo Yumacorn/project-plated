@@ -14,9 +14,9 @@ Ranking (Join Table - joining reviewers and menus)
     *has 2 belongs_to, MANY-MANY relationship
     - belongs_to :reviewer
     - belongs_to :menu
-    - 3_star (item)
-    - 2_star (item)
-    - 1_star (item)
+    - gold_star (item)
+    - silver_star (item)
+    - bronze_star (item)
 
 Menu
     - has_many :rankings
