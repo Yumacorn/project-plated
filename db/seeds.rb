@@ -15,5 +15,7 @@ Item.create(menu_id: 1, name: "Gordita Taco")
 Item.create(menu_id: 1, name: "Baja Blast")
 Item.create(menu_id: 1, name: "Cheesy Cheese Burrito")
 
-Ranking.create(reviewer_id: 1, menu_id: 1, gold_star: 1, silver_star: 2, bronze_star: 3)
+#Ranking columns for gold_star are not acceptable for association. Is this because of the column name?
+#Is it expecting a different name?
+Ranking.create(reviewer_id: 1, menu_id: 1, gold_star_id: 1, silver_star: 2, bronze_star: 3)
 Ranking.create(reviewer_id: 2, menu_id: 1, gold_star: 2, silver_star: 3, bronze_star: 1)
