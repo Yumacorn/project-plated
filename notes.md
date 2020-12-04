@@ -17,6 +17,10 @@ Ranking (Join Table - joining reviewers and menus)
     - gold_star (item)
     - silver_star (item)
     - bronze_star (item)
+    enum
+
+    - instead of (3) separate references to Item, array?
+      rank [gold (item), silver (item), bronze (item)]
 
 Menu
     - has_many :rankings
